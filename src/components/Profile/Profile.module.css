@@ -1,4 +1,4 @@
-.card {
+.userCard {
     margin: 100px auto;
     width: 90vw;
     max-width: 280px;
@@ -12,12 +12,12 @@
     color: #132237;
 }
 
-.description {
+.userDescription {
     padding: 30px 0px;
     background-color: rgb(163, 219, 217);
 }
 
-.avatarImg {
+.userAvatarImg {
     display: block;
     margin: 0 auto;
     width: 100px;
@@ -25,32 +25,32 @@
     border-radius: 50%;
 }
 
-.name {
+.userName {
     margin-top: 30px;
     font-size: 30px;
     font-weight: 500;
     text-align: center;
 }
 
-.usertag,
-.userlocation {
+.userTag,
+.userLocation {
     font-size: 16px;
     text-align: center;
     color: #995f24;
 }
 
-.usertag {
+.userTag {
     margin: 10px 0;
 }
 
-.userstats {
+.userStats {
     width: 100%;
     padding: 0;
     display: flex;
     list-style: none;
 }
 
-.statsItem {
+.userStatsItem {
     padding: 20px 0;
     width: 33.33%;
     display: flex;
@@ -60,17 +60,17 @@
     border-top: 1px solid #e5e9f1;
 }
 
-.statsItem:not(:last-of-type) {
+.userStatsItem:not(:last-of-type) {
     border-right: 1px solid #e5e9f1;
 }
 
-.label {
+.userLabel {
     margin-bottom: 5px;
     font-size: 14px;
     color: #995f24;
 }
 
-.quantity {
+.userQuantity {
     font-size: 16px;
     font-weight: 700;
 }
