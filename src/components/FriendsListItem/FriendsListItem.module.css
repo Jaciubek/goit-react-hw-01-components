@@ -1,0 +1,41 @@
+.friendItem {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.friendOnline,
+.friendOffline {
+    margin-right: 20px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.friendOnline {
+    background-color: rgb(0, 250, 0);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.friendOffline {
+    background-color: rgb(255, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.friendUserAvatar {
+    width: 60px;
+    background-color: #9e9494;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.friendUserName {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+}
